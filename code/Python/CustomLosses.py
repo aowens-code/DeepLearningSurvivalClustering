@@ -30,7 +30,7 @@ class CustomLosses:
         return loss   
                                  
     #Description: Cox partial likelihood loss function
-    #Parameters: y_true = true data, bottleneck = network output
+    #Parameters: censor = censor status - should be in descending order of survival, bottleneck = single dimension network output
     #Returns: negativeLikelihood = the loss
     def survivalLoss(censor, bottleneck):
         hazardRatio = tf.keras.backend.exp(bottleneck)    
