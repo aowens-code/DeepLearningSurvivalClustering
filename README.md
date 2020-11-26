@@ -23,7 +23,7 @@ Deep learning based solution for creating prognostic subgroups in The Cancer Gen
 
 ## Downloading Data
 
-In this repository see the file 'Download and Pre-process TCGA data.R' in code/R for the code to download and pre-process TCGA HCC data using TCGA-Assembler 2.0. TCGA-Assembler 2.0 should be downloaded first and is available here https://github.com/compgenome365/TCGA-Assembler-2
+In this repository see the file 'DownloadAndProcessTCGAData.R' in code/R for the code to download and pre-process TCGA HCC data using TCGA-Assembler 2.0. TCGA-Assembler 2.0 should be downloaded first and is available here https://github.com/compgenome365/TCGA-Assembler-2
 
 ## Analysing Data
 
